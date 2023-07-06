@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_sec {
+    margin: 118px auto 0;
+    width: 28.5%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px #a9a5a5;
+    overflow: hidden;
+}
+
+#image_sec {
+    padding: 20px;
+    background-image: url("../img/black.avif");
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+#toyato {
+    width: 100%;
+}
+
+.details_sec {
+    background-color: rgb(85, 95, 198);
+    padding: 10px;
+}
+
+.car_name_sec {
+    display: inline-block;
+    background-color: black;
+    padding: 3px 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.car_type_sec {
+    color: white;
+    font-size: 18px;
+    margin: 7px 0px;
+}
+
+.milage_sec,
+.fuel_sec,
+.safety_sec {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 2px 0px;
+    letter-spacing: 0.5px;
+}
+
+.milage_sec>i,
+.fuel_sec>i,
+.safety_sec>i {
+    color: black;
+}
+
+.color_container>p {
+    color: white;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.color1_sec {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.color2_sec {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.color3_sec {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.color_sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.price_sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.price_sec>p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+.price_sec>p:nth-child(2) {
+    text-decoration: line-through;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+#button {
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
